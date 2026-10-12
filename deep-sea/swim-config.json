@@ -1,0 +1,770 @@
+{
+ "_help": "深海游鱼配置文件。修改后保存、刷新页面即生效。每条鱼按 image(图片文件名,不含 .png)对应页面上的动物。字段说明:\n  name      中文名,仅用于对照,让你知道正在改的是哪条(不会改页面文字)\n  direction 这张图片素材原本的头朝向: \"right\"(头朝右) 或 \"left\"(头朝左)。\n            绝大多数素材头朝右;如果某条鱼在图里本来头朝左,请把它改成 \"left\"\n  move      游动方式: \"right\" 整屏向右环游(出右屏从左侧再进来) | \"left\" 整屏向左环游 | \"float\" 待在格子附近小范围轻游\n  技巧:鱼头朝右又想让它向左游,直接写 move:\"left\" 即可,会自动把图镜像,保证头朝游动方向,不需要手动改 direction。",
+ "speed": 1.0,
+ "defaultDirection": "right",
+ "defaultMove": "right",
+ "fish": [
+  {
+   "image": "manatee",
+   "name": "海牛",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "bottlenose-dolphin",
+   "name": "宽吻海豚下潜",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "green-sea-turtle",
+   "name": "绿海龟",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "beluga-whale",
+   "name": "白鲸",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "sea-lion",
+   "name": "海狮",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "velvet-crab",
+   "name": "天鹅绒蟹",
+   "direction": "right",
+   "move": "float"
+  },
+  {
+   "image": "staghorn-coral",
+   "name": "鹿角珊瑚",
+   "direction": "right",
+   "move": "float"
+  },
+  {
+   "image": "killer-whale",
+   "name": "虎鲸",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "barramundi",
+   "name": "澳洲肺鱼",
+   "direction": "left",
+   "move": "left"
+  },
+  {
+   "image": "great-barracuda",
+   "name": "大魣鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "spotted-bass",
+   "name": "斑纹鲈",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "striped-bass",
+   "name": "条纹鲈",
+   "direction": "left",
+   "move": "left"
+  },
+  {
+   "image": "black-drum",
+   "name": "黑鼓鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "blue-fish",
+   "name": "蓝鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "spiny-dogfish",
+   "name": "白斑角鲨",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "dentex",
+   "name": "突齿鲷",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "mahi-mahi",
+   "name": "鲯鳅",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "flounder",
+   "name": "比目鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "bull-shark",
+   "name": "牛鲨",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "great-white-shark",
+   "name": "大白鲨",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "blue-shark",
+   "name": "大青鲨",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "gummy-shark",
+   "name": "翅鲨",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "mako-shark",
+   "name": "灰鲭鲨",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "sunfish",
+   "name": "翻车鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "diver",
+   "name": "人类",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "atlantic-mackerel",
+   "name": "大西洋鲭鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "queen-snapper",
+   "name": "女王笛鲷",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "pelagic-stingray",
+   "name": "远洋魟",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "narwhal",
+   "name": "一角鲸最深下潜纪录",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "frill-shark",
+   "name": "皱鳃鲨",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "viperfish",
+   "name": "蝰鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "angler-fish",
+   "name": "鮟鱇鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "leatherback-sea-turtle",
+   "name": "棱皮龟",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "olive-ridly-sea-turtle",
+   "name": "丽龟",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "sea-pen",
+   "name": "海鳃",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "dragonfish",
+   "name": "巨口鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "orange-roughy",
+   "name": "橙连鳍鲑",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "wolf-eel",
+   "name": "狼鳗",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "swordfish",
+   "name": "剑鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "chain-catshark",
+   "name": "链斑猫鲨",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "atlantic-cod",
+   "name": "大西洋鳕鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "pacific-cod",
+   "name": "太平洋鳕鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "european-pilchard",
+   "name": "欧洲沙丁鱼",
+   "direction": "left",
+   "move": "left"
+  },
+  {
+   "image": "atlantic-salmon",
+   "name": "大西洋鲑鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "chinook-salmon",
+   "name": "帝王鲑",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "blue-tang",
+   "name": "蓝倒吊",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "clown-fish",
+   "name": "小丑鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "haddock",
+   "name": "黑线鳕",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "vampire-squid",
+   "name": "吸血乌贼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "japanese-spider-crab",
+   "name": "日本蜘蛛蟹",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "firefly-squid",
+   "name": "萤火鱿",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "sperm-whale",
+   "name": "抹香鲸下潜",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "yeti-crab",
+   "name": "雪人蟹",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "big-red-jellyfish",
+   "name": "大红水母",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "jewel-squid",
+   "name": "珠宝鱿鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "cockatoo-squid",
+   "name": "凤头鹦鹉鱿",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "phronima",
+   "name": "小头戎",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "bubblegum-coral",
+   "name": "泡泡糖珊瑚",
+   "direction": "right",
+   "move": "float"
+  },
+  {
+   "image": "giant-isopod",
+   "name": "巨型等足虫",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "coelacanth",
+   "name": "腔棘鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "colossal-squid",
+   "name": "大王酸浆鱿",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "goblin-shark",
+   "name": "哥布林鲨",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "chimaeras",
+   "name": "银鲛",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "black-swallower",
+   "name": "黑叉齿鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "monkfish",
+   "name": "鮟鱇",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "giant-pacific-octopus",
+   "name": "太平洋巨型章鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "sixgill-shark",
+   "name": "六鳃鲨",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "emperor-penguin",
+   "name": "帝企鹅下潜",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "elephant-seal",
+   "name": "象海豹下潜",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "bairds-beaked-whale",
+   "name": "贝氏喙鲸",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "leptoseris",
+   "name": "薄层珊瑚",
+   "direction": "right",
+   "move": "float"
+  },
+  {
+   "image": "gigantactis",
+   "name": "长须鮟鱇",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "bigeye-tuna",
+   "name": "大眼金枪鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "bamboo-coral",
+   "name": "竹珊瑚",
+   "direction": "right",
+   "move": "float"
+  },
+  {
+   "image": "nautilus",
+   "name": "鹦鹉螺",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "hatchetfish",
+   "name": "斧头鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "giant-oarfish",
+   "name": "巨型皇带鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "giant-tube-worm",
+   "name": "巨型管虫",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "telescope-octopus",
+   "name": "望远镜章鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "barreleye-fish",
+   "name": "桶眼鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "squidworm",
+   "name": "鱿虫",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "sea-angel",
+   "name": "海天使",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "marrus-orthocanna",
+   "name": "直管马鲁斯水母",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "scaly-foot-snail",
+   "name": "鳞足螺",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "vigtorniella-worm",
+   "name": "维格托尼亚蠕虫",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "terrible-claw-lobster",
+   "name": "怖爪螯虾",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "venus-flytrap-sea-anemone",
+   "name": "捕蝇草海葵",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "leafy-sea-dragon",
+   "name": "叶海龙",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "headless-chicken-fish",
+   "name": "无头鸡鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "greenland-halibut",
+   "name": "格陵兰大比目鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "king-crab",
+   "name": "帝王蟹",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "greenland-shark",
+   "name": "格陵兰鲨",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "blobfish",
+   "name": "水滴鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "zombie-worm",
+   "name": "僵尸蠕虫",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "polar-bear",
+   "name": "北极熊",
+   "direction": "left",
+   "move": "left"
+  },
+  {
+   "image": "kelp",
+   "name": "巨藻",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "thick-billed-murre",
+   "name": "厚嘴海鸦下潜",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "barnacle",
+   "name": "藤壶",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "gulper-eel",
+   "name": "吞噬鳗",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "amphipoda",
+   "name": "端足类",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "toothfish",
+   "name": "巴塔哥尼亚犬牙鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "flabby-whalefish",
+   "name": "软体鲸鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "atolla-jellyfish",
+   "name": "环冠水母",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "fangtooth",
+   "name": "尖牙鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "titanic",
+   "name": "泰坦尼克号残骸",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "caridea",
+   "name": "真虾",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "cuvier",
+   "name": "柯氏喙鲸下潜",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "lizardfish",
+   "name": "蜥蜴鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "harp-sponge",
+   "name": "竖琴海绵",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "dumbo-octopus",
+   "name": "小飞象章鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "cosmic-jellyfish",
+   "name": "宇宙水母",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "brittle-star",
+   "name": "蛇尾",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "sea-pig",
+   "name": "海猪",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "megamouth-shark",
+   "name": "巨口鲨",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "stoplight-loose-jaw",
+   "name": "红光口鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "tripod-fish",
+   "name": "三脚架鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "faceless-fish",
+   "name": "无脸鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "cookie-cutter-shark",
+   "name": "达摩鲨",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "glass-sponge",
+   "name": "玻璃海绵",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "abyssal-spiderfish",
+   "name": "深渊蜘蛛鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "comb-jelly",
+   "name": "栉水母",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "hadal-snailfish",
+   "name": "深渊狮子鱼",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "uss-johnston",
+   "name": "约翰斯顿号残骸",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "grenadier",
+   "name": "突吻鳕",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "cusk-eel",
+   "name": "鼬鳚",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "chiton",
+   "name": "石鳖",
+   "direction": "right",
+   "move": "right"
+  },
+  {
+   "image": "hadal-amphipod",
+   "name": "深渊端足类",
+   "direction": "right",
+   "move": "right"
+  }
+ ]
+}
